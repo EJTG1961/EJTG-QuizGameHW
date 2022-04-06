@@ -9,13 +9,13 @@
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 55px;
   color: #333;
   margin-bottom: 5px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 4px;
 }
 
@@ -25,7 +25,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -84,3 +84,42 @@ h2 {
 #highscore-btn:hover {
   box-shadow: 0 4px 14px 0 rgba(255,255,0,0.5);
 }
+
+  /* end css */
+
+  .end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+  }
+
+  input {
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0 1px 14px 0 lightskyblue;
+  }
+
+  input::placeholder {
+    color: #aaa;
+  }
+
+  #username {
+    margin-bottom: 30px;
+    width: 100%;
+    outline: none;
+  }
+
+  #end-text {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+  }
+
+  #saveScoreBtn {
+    border: none;
+  }
